@@ -1,0 +1,55 @@
+/* Reset some default browser styles */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the entire page */
+body {
+    background-color: #e1f5e4; /* Light Green */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    background-color: #4caf50; /* Green */
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the container */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Style the paragraph */
+p {
+    margin: 10px 0;
+    color: #4caf50; /* Green */
+}
+
+/* Style the buttons */
+a.button {
+    display: block;
+    text-align: center;
+    background-color: #4caf50; /* Green */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px auto;
+    width: 200px;
+}
+
+a.button:hover {
+    background-color: #45a049; /* Darker Green on hover */
+}

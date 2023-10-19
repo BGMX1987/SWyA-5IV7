@@ -1,0 +1,81 @@
+/* Reset some default browser styles */
+body, h1, p, a, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the entire page */
+body {
+    background-color: #ffe6cc; /* Light Orange */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    background-color: #ff8000; /* Orange */
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the navigation bar */
+.navbar ul {
+    list-style: none;
+    text-align: center;
+    background-color: #ff8000; /* Orange */
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the container */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the article */
+article.datos {
+    text-align: center;
+}
+
+/* Style the buttons */
+input[type="button"].btn.btn-info {
+    background-color: #ff8000; /* Orange */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Style the input and textarea */
+input[type="text"]#txt, input[type="text"]#txtClave, textarea#res {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the "Copiar" button */
+input[type="button"].btn.btn-info#copiar {
+    background-color: #ff8000; /* Orange */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}

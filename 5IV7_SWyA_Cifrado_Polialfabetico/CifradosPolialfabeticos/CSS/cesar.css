@@ -1,0 +1,77 @@
+/* Reset some default browser styles */
+body, h1, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the entire page */
+body {
+    background-color: #e6e6e6;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    background-color: #7b1fa2; /* Purple */
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #7b1fa2; /* Purple */
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the container */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the input and textarea */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the buttons */
+button {
+    background-color: #7b1fa2; /* Purple */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Style the result paragraph */
+#resultado {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #7b1fa2; /* Purple */
+}

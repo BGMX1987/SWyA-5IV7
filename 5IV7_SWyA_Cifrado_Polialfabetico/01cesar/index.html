@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/cesar.css">
+    <title>Cifrado César</title>
+</head>
+<body>
+    <h1>Cifrado César</h1>
+    <br>
+    <div class="container">
+
+        <p>Ingresa un número (clave) o una letra (clave) y un mensaje para cifrar o descifrar:</p>
+        <input type="text" id="clave" placeholder="Número o letra de clave">
+        <textarea id="mensaje" placeholder="Mensaje para cifrar o descifrar"></textarea>
+        <button onclick="cifrarCesar()">Cifrar</button>
+        <button onclick="descifrarCesar()">Descifrar</button>
+        <p>Resultado:</p>
+        <p id="resultado"></p>
+    </div>
+
+    <script src="./JS/cesar.js"></script>
+</body>
+</html>
+
